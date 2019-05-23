@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.calculator {
+    height: 320px;
+    width: 235px;
+    margin-top: 1em;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: aquamarine; 
+
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows:  1fr repeat(5, 48px)
+}
+
